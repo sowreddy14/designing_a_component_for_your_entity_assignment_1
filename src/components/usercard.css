@@ -1,0 +1,39 @@
+.usercard {
+    border: 2px solid #4caf50; 
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 320px;
+    text-align: center;
+    background: linear-gradient(135deg, #f3a683, #3dc1d3); 
+    color: #ffffff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto;
+  }
+  
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff; 
+    margin-bottom: 16px;
+    background-color: #ffffff; 
+  }
+  
+  .user-details h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .user-details p {
+    margin: 6px 0;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  .user-details p:nth-child(odd) {
+    color: #ffda79;
+  }
+  
